@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Microex.Common\Microex.Common\Microex.Common.csproj" />
+    <PackageReference Include="Microex.Common" Version="1.2.1" />
   </ItemGroup>
 
   <ItemGroup>

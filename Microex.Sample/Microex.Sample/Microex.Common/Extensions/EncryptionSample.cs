@@ -27,17 +27,6 @@ namespace Microex.Sample.Console.Microex.Common
             MemoryStream ms = new MemoryStream();
             stream.CopyTo(ms);
             byte[] bytes = ms.ToArray();
-
-            //byte[] bytes=new byte[stream.Length];
-            //using (MemoryStream ms = new MemoryStream())
-            //{
-            //    int read;
-            //    while ((read = stream.Read(bytes, 0, bytes.Length)) > 0)
-            //    {
-            //        ms.Write(bytes, 0, read);
-            //    }
-            //    bytes = ms.ToArray();
-            //}
             string byteComputValue = bytes.ComputeMd5();
 
             //check if byteComputValue==streamComputValue(same picture)  
