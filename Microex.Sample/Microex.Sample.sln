@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microex.Sample.Console", "Microex.Sample\Microex.Sample.Console.csproj", "{E3FB1FDD-E9B4-4209-A5A0-9346349BCC7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3FB1FDD-E9B4-4209-A5A0-9346349BCC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FB1FDD-E9B4-4209-A5A0-9346349BCC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FB1FDD-E9B4-4209-A5A0-9346349BCC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FB1FDD-E9B4-4209-A5A0-9346349BCC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79F520C8-F65F-4BF8-8514-2D0264AAD2AC}
+	EndGlobalSection
+EndGlobal
